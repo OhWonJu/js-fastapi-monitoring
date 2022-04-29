@@ -17,7 +17,7 @@ def prepare_dataset(test_size=0.2, random_seed=1):
         # local
         # "C:\\Users\\owj96\\dxdata\\js-fastapi-monitoring\\data\\winequality-red.csv",
         # non-local
-        ".\\data\\winequality-red.csv",
+        ".\data\winequality-red.csv",
         delimiter=",",
     )
     dataset = dataset.rename(columns=lambda x: x.lower().replace(" ", "_"))
